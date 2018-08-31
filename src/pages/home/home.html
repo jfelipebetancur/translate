@@ -1,7 +1,7 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Babeliser
+      {{ 'home.title' | translate }}
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -11,10 +11,10 @@
 
   <ion-item>
   	<ion-select [(ngModel)]="language" (ionChange)="changeLanguage()">
-  	   <ion-option value="en" selected="true">English</ion-option>
-  	   <ion-option value="de">German</ion-option>
-  	   <ion-option value="es">Spanish</ion-option>
-  	   <ion-option value="fr">French</ion-option>
+  	   <ion-option value="en" selected="true">{{ 'home.buttons.btn_en' | translate }}</ion-option>
+  	   <ion-option value="de">{{ 'home.buttons.btn_de' | translate }}</ion-option>
+  	   <ion-option value="es">{{ 'home.buttons.btn_es' | translate }}</ion-option>
+  	   <ion-option value="fr">{{ 'home.buttons.btn_fr' | translate }}</ion-option>
   	</ion-select>
   </ion-item>
 

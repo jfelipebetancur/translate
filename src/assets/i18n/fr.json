@@ -1,6 +1,13 @@
 {
 	"home" : {
 		"heading": "Bonjour le monde",
-		"description": "Oh non .... Pas encore la démonstration du tutoriel Hello!"
+		"description": "Oh non .... Pas encore la démonstration du tutoriel Hello!",
+		"title": "La maison",
+		"buttons": {
+			"btn_es": "Espagnol",
+			"btn_en": "Anglais",
+			"btn_de": "Allemand",
+			"btn_fr": "Français"
+		}
 	}
 }

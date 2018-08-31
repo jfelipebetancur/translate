@@ -15,6 +15,9 @@ export class HomePage {
    constructor(private _platform : Platform,
                public navCtrl : NavController,
                private _translate : TranslateService) {
+    this._translate.use('es');
+    this.language = 'es';
+    //this._translate.use(this._translate.getBrowserLang());
    }
 
    changeLanguage() {

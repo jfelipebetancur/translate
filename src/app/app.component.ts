@@ -24,13 +24,14 @@ export class MyApp {
 
   private _initTranslate() {
      // Set the default language for translation strings, and the current language.
-     this._translate.setDefaultLang('en');
+     this._translate.setDefaultLang('es');
+     this._translate.use('es');
 
-
-     if (this._translate.getBrowserLang() !== undefined) {
+     //Idioma según el lenguaje del navegador
+     /*if (this._translate.getBrowserLang() !== undefined) {
          this._translate.use(this._translate.getBrowserLang());
      } else {
          this._translate.use('en'); // Set your language here
-     }
+     }*/
   }
 }
